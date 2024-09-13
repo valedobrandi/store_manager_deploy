@@ -84,10 +84,11 @@ docker-compose exec backend npm run test
 
     If any service fails to start, check the logs:
 
-    ```bash
-  docker-compose logs [service_name]
-    ```
+``` bash
+docker-compose logs [service_name]
+```
 Ensure that no other services are using ports 5173, 3001, or 3306.
+
 Make sure Docker and Docker Compose are properly installed.
 
 ### Contributors
