@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+* {
+  transition: opacity 250ms ease-in-out;
+  font-size: 1rem;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+th {
+  font-size: 0.8rem;
+}
+
+td {
+  font-size: 1rem;
+}
+
+.select {
+  min-height: 2rem
+}
+
+.no-animation {
+  --btn-focus-scale: none;
+  --animation-btn: 0;
+  --animation-input: 0;
+}
+
+
