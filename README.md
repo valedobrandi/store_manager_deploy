@@ -82,7 +82,7 @@ docker-compose exec backend npm run test
 
 ### Troubleshooting
 
-    If any service fails to start, check the logs:
+If any service fails to start, check the logs:
 
 ``` bash
 docker-compose logs [service_name]
