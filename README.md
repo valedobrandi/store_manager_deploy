@@ -66,12 +66,15 @@ To modify the configuration, you can create a .env file and override the default
 Frontend
 
 Tests are written using Jest and Testing Library. To run the tests:
+
 ``` bash
 docker-compose exec frontend npm run test
 ```
 
-Backend:
+Backend
+
 The backend tests use Vitest. To run the tests:
+
 ``` bash
 docker-compose exec backend npm run test
 ```
