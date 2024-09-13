@@ -63,7 +63,7 @@ To modify the configuration, you can create a .env file and override the default
 
 ### Tests
 
-Frontend
+- **Frontend**
 
 Tests are written using Jest and Testing Library. To run the tests:
 
@@ -71,9 +71,9 @@ Tests are written using Jest and Testing Library. To run the tests:
 docker-compose exec frontend npm run test
 ```
 
-Backend
+- **Backend**
 
-The backend tests use Vitest. To run the tests:
+   The backend tests use Vitest. To run the tests:
 
 ``` bash
 docker-compose exec backend npm run test
@@ -82,14 +82,14 @@ docker-compose exec backend npm run test
 
 ### Troubleshooting
 
-If any service fails to start, check the logs:
+   If any service fails to start, check the logs:
 
 ``` bash
 docker-compose logs [service_name]
 ```
-Ensure that no other services are using ports 5173, 3001, or 3306.
+- Ensure that no other services are using ports 5173, 3001, or 3306.
 
-Make sure Docker and Docker Compose are properly installed.
+- Make sure Docker and Docker Compose are properly installed.
 
 ### Contributors
 
